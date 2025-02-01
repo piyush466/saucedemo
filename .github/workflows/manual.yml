@@ -1,4 +1,4 @@
-name: Python Selenium Tests
+name: Python Selenium Tests 2
 on:
   workflow_dispatch:
     inputs:
