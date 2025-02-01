@@ -31,7 +31,7 @@ jobs:
 
       # Run the PyTest script
       - name: Run PyTest
-        run: pytest --html=./pytest-report/report.html --self-contained-html
+        run: pytest --html=report.html --self-contained-html
         env:
 
 
