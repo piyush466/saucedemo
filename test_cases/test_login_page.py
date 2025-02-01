@@ -64,7 +64,7 @@ class Test_login(BaseClass):
         self.login.product_add_cart()
         self.login.remove_item_from_cart()
         self.basepage.assertion(self.login.add_cart_button, "Add to cart")
-        print("test123")
+        print("test1232")
 
 
 
