@@ -1,15 +1,8 @@
-name: Python Selenium Tests 2
+name: Python Selenium Tests
 on:
+  push:
   workflow_dispatch:
-    inputs:
-      browser:
-        description: 'Browser to use (e.g., chrome, firefox, edge)'
-        required: true
-        default: 'chrome'
-      headless:
-        description: 'Run tests in headless mode (true/false)'
-        required: true
-        default: 'true'
+    # This workflow will be triggered manually from the GitHub Actions UI
 
 jobs:
   test01:
@@ -27,18 +20,14 @@ jobs:
 
       # Install necessary packages from requirements.txt
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirement.txt
 
       # Run the PyTest script
       - name: Run PyTest
-        run: pytest --html=report.html --self-contained-html
-        env:
-
+        run: pytest --html=./pytest-report/report.html --self-contained-html
 
       - name: Upload test artifacts
         uses: actions/upload-artifact@v2
-        if: ${{ always() }}
         with:
           name: test-results
           path: pytest-report/report.html
-          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to warn
