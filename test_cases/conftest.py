@@ -1,5 +1,8 @@
+
+
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 from page_object.base_file import Basepage
 from page_object.login_page import Login
@@ -7,9 +10,12 @@ from page_object.login_page import Login
 
 @pytest.fixture
 def setup(request):
-    driver = webdriver.Chrome()
+
+    option = Options()
+    option.add_argument("--headless")
+    option.add_argument("--start-maximized")
+    driver = webdriver.Chrome(options=option)
     driver.get("https://www.saucedemo.com/")
-    driver.maximize_window()
     driver.implicitly_wait(20)
     request.cls.driver = driver
     request.cls.basepage = Basepage(driver)

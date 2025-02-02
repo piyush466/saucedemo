@@ -1,15 +1,6 @@
 name: Python Selenium Tests
 on:
   workflow_dispatch:
-    inputs:
-      browser:
-        description: 'Browser to use (e.g., chrome, firefox, edge)'
-        required: true
-        default: 'chrome'
-      headless:
-        description: 'Run tests in headless mode (true/false)'
-        required: true
-        default: 'true'
 
 jobs:
   test01:
@@ -23,7 +14,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       # Install necessary packages from requirements.txt
       - name: Install dependencies

@@ -1,0 +1,6 @@
+2025-02-02 18:01:10,512 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-02 18:01:10,758 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-02 18:01:10,989 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-02 18:01:14,553 - INFO - User clicked on this locator: ('css selector', "[class='shopping_cart_badge']")
+2025-02-02 18:01:14,604 - INFO - Fetched text 'Sauce Labs Bike Light' from the locator: ('css selector', "[class='inventory_item_name']")
+2025-02-02 18:01:14,604 - INFO - Assertion passed: Sauce Labs Bike Light == Sauce Labs Bike Light
