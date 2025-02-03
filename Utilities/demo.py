@@ -61,8 +61,8 @@ driver.find_element(By.LINK_TEXT, "Blog").click()
 driver.switch_to.default_content()
 time.sleep(5)
 
-print("hello")
-print("new")
+print("testtt")
+
 
 
 
