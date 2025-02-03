@@ -103,6 +103,25 @@ class Login(Basepage):
         self.do_click(self.CONTINUE_SHOPPING)
         self.add_cart_button = self.get_text(self.ADD_TO_CART_BUTTON_ID)
 
+    def same_product_again_add(self):
+        self.product_names = self.driver.find_elements(By.XPATH, "//div[@class='inventory_item_description']")
+        for product in self.product_names:
+            product_title = product.find_element(By.XPATH, ".//a").text
+            # print(product_title)  # Debugging step to ensure the text is correct
+            if product_title == self.select_product_name:
+                # print(product_title)
+                add_button = product.find_element(By.XPATH, ".//button")
+                # print(add_button.text)
+                add_button.click()
+                time.sleep(3)  # Clicking via JavaScript in case of issues
+                add_button2 = product.find_element(By.XPATH, ".//button")
+                self.remove_button = add_button2.text
+
+
+
+
+
+
 
 
 

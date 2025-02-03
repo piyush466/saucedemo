@@ -4,3 +4,69 @@
 2025-02-02 18:01:14,553 - INFO - User clicked on this locator: ('css selector', "[class='shopping_cart_badge']")
 2025-02-02 18:01:14,604 - INFO - Fetched text 'Sauce Labs Bike Light' from the locator: ('css selector', "[class='inventory_item_name']")
 2025-02-02 18:01:14,604 - INFO - Assertion passed: Sauce Labs Bike Light == Sauce Labs Bike Light
+2025-02-03 16:41:36,119 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 16:41:36,259 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 16:41:36,550 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 16:41:55,816 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 16:41:56,034 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 16:41:56,405 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 19:29:44,442 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 19:29:44,643 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 19:29:44,865 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 19:33:10,282 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 19:33:10,572 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 19:33:10,803 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 19:33:11,022 - ERROR - Failed to get text from locator <selenium.webdriver.remote.webelement.WebElement (session="484d23ef7ca2401d2729c756bba1105a", element="f.BF50A448B2EDD47D53CFB41983D0AA31.d.82E15A4FD4D92AA9D16C72DCAF0FFAF8.e.121")>. Error: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not WebElement
+2025-02-03 19:34:42,310 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 19:34:42,470 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 19:34:42,682 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 19:37:08,288 - ERROR - Failed to send keys to locator ('id', 'user-name'). Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.160)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A3CD02F5+28725]
+	(No symbol) [0x00007FF7A3C32AE0]
+	(No symbol) [0x00007FF7A3AC510A]
+	(No symbol) [0x00007FF7A3AB222C]
+	(No symbol) [0x00007FF7A3AB219C]
+	(No symbol) [0x00007FF7A3AB08B6]
+	(No symbol) [0x00007FF7A3AB163F]
+	(No symbol) [0x00007FF7A3AC9791]
+	(No symbol) [0x00007FF7A3ACA27A]
+	(No symbol) [0x00007FF7A3ACEABC]
+	(No symbol) [0x00007FF7A3ACEB8F]
+	(No symbol) [0x00007FF7A3B18C85]
+	(No symbol) [0x00007FF7A3B195FC]
+	(No symbol) [0x00007FF7A3B63407]
+	(No symbol) [0x00007FF7A3B3FFEF]
+	(No symbol) [0x00007FF7A3B60181]
+	(No symbol) [0x00007FF7A3B3FD53]
+	(No symbol) [0x00007FF7A3B0A0E3]
+	(No symbol) [0x00007FF7A3B0B471]
+	GetHandleVerifier [0x00007FF7A3FFF30D+3366989]
+	GetHandleVerifier [0x00007FF7A40112F0+3440688]
+	GetHandleVerifier [0x00007FF7A40078FD+3401277]
+	GetHandleVerifier [0x00007FF7A3D9AAAB+858091]
+	(No symbol) [0x00007FF7A3C3E74F]
+	(No symbol) [0x00007FF7A3C3A304]
+	(No symbol) [0x00007FF7A3C3A49D]
+	(No symbol) [0x00007FF7A3C28B69]
+	BaseThreadInitThunk [0x00007FFE7F1AE8D7+23]
+	RtlUserThreadStart [0x00007FFE7FB3BF2C+44]
+
+2025-02-03 19:37:18,414 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 19:37:18,684 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 19:37:18,930 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 20:01:27,156 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 20:01:27,337 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 20:01:27,568 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 20:02:19,120 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 20:02:19,324 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 20:02:19,780 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 20:03:52,542 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 20:03:52,713 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 20:03:53,035 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 20:04:33,843 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-03 20:04:34,092 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-03 20:04:34,565 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-03 20:04:38,147 - INFO - Assertion passed: Remove == Remove

@@ -63,6 +63,14 @@ class Test_login(BaseClass):
         self.login.remove_item_from_cart()
         self.basepage.assertion(self.login.add_cart_button, "Add to cart")
 
+    #Verify if "Add to Cart" button is disabled after adding product
+    def test_10_if_user_add_to_cart_button_is_disable_after_adding_product(self):
+        self.login.click_on_login("standard_user", "secret_sauce")
+        self.login.same_product_again_add()
+        self.basepage.assertion(self.login.remove_button, "Remove")
+
+
+
 
 
 

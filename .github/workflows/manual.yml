@@ -22,7 +22,7 @@ jobs:
 
       # Run the PyTest script
       - name: Run PyTest
-        run: pytest -n 9 --html=./pytest-report/report.html --self-contained-html
+        run: pytest -n 10 --html=./pytest-report/report.html --self-contained-html
 
       - name: Upload test artifacts
         uses: actions/upload-artifact@v4
