@@ -13,7 +13,7 @@ from page_object.login_page import Login
 def setup(request):
 
     option = Options()
-    # option.add_argument("--headless")
+    option.add_argument("--headless")
     option.add_argument("--start-maximized")
     driver = webdriver.Chrome(options=option)
     driver.get("https://www.saucedemo.com/")
