@@ -69,6 +69,22 @@ class Test_login(BaseClass):
         self.login.same_product_again_add()
         self.basepage.assertion(self.login.remove_button, "Remove")
 
+    def test_11_verify_user_can_click_on_about_us_page(self):
+        self.login.click_on_login("standard_user", "secret_sauce")
+        self.about.about_us_page()
+        self.basepage.assertion(self.basepage.get_title(),
+                                "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing")
+
+    def test_12_user_can_navigate_reset_app_page(self):
+        self.login.click_on_login("standard_user", "secret_sauce")
+        self.about.reset_app_page()
+        self.basepage.assertion(self.basepage.get_title(), "Swag Labs")
+
+    def test_13_user_can_see_the_social_media_app(self):
+        self.login.click_on_login("standard_user", "secret_sauce")
+        self.about.social_media_app()
+        self.basepage.assertion(self.about.actual_list, self.about.lists_of_social_media)
+
 
 
 

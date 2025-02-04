@@ -70,3 +70,113 @@ Stacktrace:
 2025-02-03 20:04:34,092 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
 2025-02-03 20:04:34,565 - INFO - User clicked on this locator: ('id', 'login-button')
 2025-02-03 20:04:38,147 - INFO - Assertion passed: Remove == Remove
+2025-02-04 22:20:54,222 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:20:54,371 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:20:54,648 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:20:54,794 - INFO - User clicked on this locator: ('id', 'react-burger-menu-btn')
+2025-02-04 22:21:08,853 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:21:09,037 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:21:09,347 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:21:09,656 - INFO - User clicked on this locator: ('id', 'react-burger-menu-btn')
+2025-02-04 22:21:21,719 - INFO - User clicked on this locator: ('link text', 'About')
+2025-02-04 22:23:08,394 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:23:08,575 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:23:08,768 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:23:08,915 - INFO - User clicked on this locator: ('id', 'react-burger-menu-btn')
+2025-02-04 22:23:16,680 - INFO - User clicked on this locator: ('link text', 'About')
+2025-02-04 22:23:16,776 - INFO - Assertion passed: Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing == Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing
+2025-02-04 22:23:30,742 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:23:30,912 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:23:31,116 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:23:31,286 - INFO - User clicked on this locator: ('id', 'react-burger-menu-btn')
+2025-02-04 22:23:43,572 - INFO - User clicked on this locator: ('link text', 'About')
+2025-02-04 22:23:43,636 - ERROR - Assertion failed: Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing != Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testin. Error: Assertion failed: Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing != Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testin
+2025-02-04 22:26:39,274 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:26:39,505 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:26:39,739 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:26:45,286 - ERROR - Failed to click on locator ('partial link text', 'Reset App State'). Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.160)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6232102F5+28725]
+	(No symbol) [0x00007FF623172AE0]
+	(No symbol) [0x00007FF62300510A]
+	(No symbol) [0x00007FF622FF222C]
+	(No symbol) [0x00007FF622FF219C]
+	(No symbol) [0x00007FF622FF08B6]
+	(No symbol) [0x00007FF622FF163F]
+	(No symbol) [0x00007FF623009791]
+	(No symbol) [0x00007FF62300A27A]
+	(No symbol) [0x00007FF62300EABC]
+	(No symbol) [0x00007FF62300EB8F]
+	(No symbol) [0x00007FF623058C85]
+	(No symbol) [0x00007FF6230595FC]
+	(No symbol) [0x00007FF6230A3407]
+	(No symbol) [0x00007FF62307FFEF]
+	(No symbol) [0x00007FF6230A0181]
+	(No symbol) [0x00007FF62307FD53]
+	(No symbol) [0x00007FF62304A0E3]
+	(No symbol) [0x00007FF62304B471]
+	GetHandleVerifier [0x00007FF62353F30D+3366989]
+	GetHandleVerifier [0x00007FF6235512F0+3440688]
+	GetHandleVerifier [0x00007FF6235478FD+3401277]
+	GetHandleVerifier [0x00007FF6232DAAAB+858091]
+	(No symbol) [0x00007FF62317E74F]
+	(No symbol) [0x00007FF62317A304]
+	(No symbol) [0x00007FF62317A49D]
+	(No symbol) [0x00007FF623168B69]
+	BaseThreadInitThunk [0x00007FFE7F1AE8D7+23]
+	RtlUserThreadStart [0x00007FFE7FB3BF2C+44]
+
+2025-02-04 22:27:04,866 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:27:05,112 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:27:05,730 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:27:06,462 - INFO - User clicked on this locator: ('id', 'react-burger-menu-btn')
+2025-02-04 22:27:06,695 - INFO - User clicked on this locator: ('partial link text', 'Reset App State')
+2025-02-04 22:29:10,357 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:29:10,602 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:29:10,811 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:29:10,977 - INFO - User clicked on this locator: ('id', 'react-burger-menu-btn')
+2025-02-04 22:29:11,200 - INFO - User clicked on this locator: ('partial link text', 'Reset App State')
+2025-02-04 22:29:11,213 - INFO - Assertion passed: Swag Labs == Swag Labs
+2025-02-04 22:36:06,294 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:36:06,465 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:36:06,762 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:40:26,768 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:40:26,925 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:40:27,206 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:41:14,936 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:41:15,122 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:41:15,368 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:44:34,957 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:44:35,131 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:44:35,360 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:45:13,660 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:45:13,881 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:45:14,073 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:45:14,295 - ERROR - Assertion failed: <selenium.webdriver.remote.webelement.WebElement (session="2687cc1e31f8245646f4165d3a1c3b53", element="f.31106FBC15930E6864AF3F0D005A8049.d.61233A1F32D260677989D095A4095EB4.e.183")> != ['Twitter', 'Facebook', 'LinkedIn']. Error: Assertion failed: <selenium.webdriver.remote.webelement.WebElement (session="2687cc1e31f8245646f4165d3a1c3b53", element="f.31106FBC15930E6864AF3F0D005A8049.d.61233A1F32D260677989D095A4095EB4.e.183")> != ['Twitter', 'Facebook', 'LinkedIn']
+2025-02-04 22:45:42,069 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:45:42,266 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:45:42,564 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:45:42,765 - ERROR - Assertion failed: LinkedIn != ['Twitter', 'Facebook', 'LinkedIn']. Error: Assertion failed: LinkedIn != ['Twitter', 'Facebook', 'LinkedIn']
+2025-02-04 22:50:14,742 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:50:14,907 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:50:15,158 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:50:15,339 - ERROR - Assertion failed: [[...], [...], [...]] != ['Twitter', 'Facebook', 'LinkedIn']. Error: Assertion failed: [[...], [...], [...]] != ['Twitter', 'Facebook', 'LinkedIn']
+2025-02-04 22:51:09,011 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:51:09,193 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:51:09,462 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:51:09,655 - ERROR - Assertion failed: [[...], [...], [...]] != ['Twitter', 'Facebook', 'LinkedIn']. Error: Assertion failed: [[...], [...], [...]] != ['Twitter', 'Facebook', 'LinkedIn']
+2025-02-04 22:51:38,299 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:51:38,487 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:51:38,696 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:52:08,062 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:52:08,270 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:52:08,524 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:52:40,787 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:52:41,013 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:52:41,227 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:53:07,451 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-04 22:53:07,619 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-04 22:53:07,909 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-04 22:53:08,799 - INFO - Assertion passed: ['Twitter', 'Facebook', 'LinkedIn'] == ['Twitter', 'Facebook', 'LinkedIn']
