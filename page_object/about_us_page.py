@@ -7,6 +7,7 @@ class About_Us(Basepage):
     HUMBERGER_MENU_ID = (By.ID, "react-burger-menu-btn")
     CLICK_ABOUT_US_MENU = (By.LINK_TEXT, "About")
     CLICK_ON_RESET_APP = (By.PARTIAL_LINK_TEXT, "Reset App State")
+    FOOTER_TEXT_CSS = (By.CSS_SELECTOR, ".footer_copy")
 
 
     def about_us_page(self):
@@ -27,3 +28,8 @@ class About_Us(Basepage):
             if self.social.text in self.lists_of_social_media:
                 if self.social.is_displayed():
                     print(f"{self.social.text} is visible")
+
+    def footer_text(self):
+        self.footer_text = self.get_text(self.FOOTER_TEXT_CSS)
+
+

@@ -180,3 +180,12 @@ Stacktrace:
 2025-02-04 22:53:07,619 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
 2025-02-04 22:53:07,909 - INFO - User clicked on this locator: ('id', 'login-button')
 2025-02-04 22:53:08,799 - INFO - Assertion passed: ['Twitter', 'Facebook', 'LinkedIn'] == ['Twitter', 'Facebook', 'LinkedIn']
+2025-02-05 20:51:38,431 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-05 20:51:38,691 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-05 20:51:38,909 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-05 20:51:38,976 - INFO - Fetched text '© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy' from the locator: ('css selector', '.footer_copy')
+2025-02-05 20:52:09,827 - INFO - User entered text 'standard_user' in the locator: ('id', 'user-name')
+2025-02-05 20:52:10,016 - INFO - User entered text 'secret_sauce' in the locator: ('id', 'password')
+2025-02-05 20:52:10,261 - INFO - User clicked on this locator: ('id', 'login-button')
+2025-02-05 20:52:10,352 - INFO - Fetched text '© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy' from the locator: ('css selector', '.footer_copy')
+2025-02-05 20:52:10,352 - INFO - Assertion passed: © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy == © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy

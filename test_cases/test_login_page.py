@@ -85,6 +85,13 @@ class Test_login(BaseClass):
         self.about.social_media_app()
         self.basepage.assertion(self.about.actual_list, self.about.lists_of_social_media)
 
+    def test_14_verify_text(self):
+        self.login.click_on_login("standard_user", "secret_sauce")
+        self.about.footer_text()
+        self.basepage.assertion(self.about.footer_text,
+                                "© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy")
+
+
 
 
 
